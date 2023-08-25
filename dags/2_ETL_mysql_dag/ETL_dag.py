@@ -93,7 +93,7 @@ dag = DAG(
 # E - Extract
 extract_data_from_source = BashOperator(
     task_id='extract_data_from_source',
-    bash_command='curl -Lb "cookies.txt" "https://file.io/b0D62JquB1rd" -o /opt/airflow/dags/2_ETL_mysql_dag/staging/extract_videosgames_data.csv',
+    bash_command='curl -Lb "cookies.txt" "https://raw.githubusercontent.com/WillisN/airflow_course/main/sources/vgsales.csv" -o /opt/airflow/dags/2_ETL_mysql_dag/staging/extract_videosgames_data.csv',
     dag=dag
 )
 

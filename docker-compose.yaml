@@ -119,6 +119,8 @@ services:
     command: webserver
     ports:
       - "8080:8080"
+    volumes:
+      - ./config/airflow.cfg:/opt/airflow/airflow.cfg
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
       interval: 30s
@@ -307,7 +309,7 @@ services:
       MYSQL_USER: myuser
       MYSQL_PASSWORD: pwd123456789
     volumes:
-      - mysql-data:/var/lib/mysql  # Add this line
+      - mysql-data:/var/lib/mysql 
       - ./0_mysql-scripts/:/docker-entrypoint-initdb.d # Mount the folder to /docker-entrypoint-initdb.d
 
 # phpmyadmin - MYSQL interface      
@@ -321,6 +323,34 @@ services:
       PMA_USER: myuser
       PMA_PASSWORD: pwd123456789
 
+# PostgreSQL - Destination Database
+  postgres_destination_server:
+      image: postgres:latest
+      environment:
+        POSTGRES_USER : admin
+        POSTGRES_PASSWORD : admin1234
+        POSTGRES_DB : db_videos_games_destination
+      ports: 
+          - "5432:5432"
+      restart: always
+      volumes: 
+          - pg-data:/var/lib/postgresql/data/
+          - ./0_postgresql-scripts/:/docker-entrypoint-initdb.d
+
+# pgadmin - PostgreSQL interface
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    ports:
+      - "8082:80"  # Map port 8082 on the host to port 80 in the container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: user@example.com
+      PGADMIN_DEFAULT_PASSWORD: pwd987654321
+    restart: always
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+
 volumes:
   postgres-db-volume:
-  mysql-data: # MYSQL - Source Database
+  mysql-data: # volume MYSQL - Source Database
+  pg-data: # volume PostgreSQL - Destination Database
+  pgadmin-data: # volume pgadmin - PostgreSQL interface
