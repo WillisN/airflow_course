@@ -1,0 +1,46 @@
+[2023-08-25T11:01:57.572+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jinja_sql_dag.clean_destination_postgresql manual__2023-08-25T11:01:57.258947+00:00 [queued]>
+[2023-08-25T11:01:57.578+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jinja_sql_dag.clean_destination_postgresql manual__2023-08-25T11:01:57.258947+00:00 [queued]>
+[2023-08-25T11:01:57.579+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-08-25T11:01:57.585+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): clean_destination_postgresql> on 2023-08-25 11:01:57.258947+00:00
+[2023-08-25T11:01:57.589+0000] {standard_task_runner.py:57} INFO - Started process 685 to run task
+[2023-08-25T11:01:57.592+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'jinja_sql_dag', 'clean_destination_postgresql', 'manual__2023-08-25T11:01:57.258947+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/6_jinja/jinja_dev.py', '--cfg-path', '/tmp/tmp4dej74vf']
+[2023-08-25T11:01:57.593+0000] {standard_task_runner.py:85} INFO - Job 64: Subtask clean_destination_postgresql
+[2023-08-25T11:01:57.638+0000] {task_command.py:415} INFO - Running <TaskInstance: jinja_sql_dag.clean_destination_postgresql manual__2023-08-25T11:01:57.258947+00:00 [running]> on host 83fdf19a2df8
+[2023-08-25T11:01:57.695+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='jinja_sql_dag' AIRFLOW_CTX_TASK_ID='clean_destination_postgresql' AIRFLOW_CTX_EXECUTION_DATE='2023-08-25T11:01:57.258947+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-25T11:01:57.258947+00:00'
+[2023-08-25T11:01:57.696+0000] {sql.py:274} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS final_destination (
+            rank_game int, 
+            name_game varchar(132), 
+            platform varchar(4), 
+            year_game varchar(4), 
+            genre_game varchar(12), 
+            publisher varchar(38), 
+            NA_Sales decimal(4, 2), 
+            EU_Sales decimal(4, 2), 
+            JP_Sales decimal(4, 2), 
+            Other_Sales decimal(4, 2), 
+            Global_Sales decimal(4, 2), 
+            load_date date
+            );
+    
+[2023-08-25T11:01:57.704+0000] {base.py:73} INFO - Using connection ID 'postgresql_connection' for task execution.
+[2023-08-25T11:01:57.713+0000] {base.py:73} INFO - Using connection ID 'postgresql_connection' for task execution.
+[2023-08-25T11:01:57.721+0000] {sql.py:418} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS final_destination (
+            rank_game int, 
+            name_game varchar(132), 
+            platform varchar(4), 
+            year_game varchar(4), 
+            genre_game varchar(12), 
+            publisher varchar(38), 
+            NA_Sales decimal(4, 2), 
+            EU_Sales decimal(4, 2), 
+            JP_Sales decimal(4, 2), 
+            Other_Sales decimal(4, 2), 
+            Global_Sales decimal(4, 2), 
+            load_date date
+            );
+    , parameters: None
+[2023-08-25T11:01:57.731+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=jinja_sql_dag, task_id=clean_destination_postgresql, execution_date=20230825T110157, start_date=20230825T110157, end_date=20230825T110157
+[2023-08-25T11:01:57.768+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-08-25T11:01:57.788+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

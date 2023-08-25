@@ -1,0 +1,45 @@
+[2023-08-25T11:02:38.074+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jinja_sql_dag.incremental_insert_task manual__2023-08-25T11:02:35.676739+00:00 [queued]>
+[2023-08-25T11:02:38.079+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jinja_sql_dag.incremental_insert_task manual__2023-08-25T11:02:35.676739+00:00 [queued]>
+[2023-08-25T11:02:38.080+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-08-25T11:02:38.086+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): incremental_insert_task> on 2023-08-25 11:02:35.676739+00:00
+[2023-08-25T11:02:38.089+0000] {standard_task_runner.py:57} INFO - Started process 701 to run task
+[2023-08-25T11:02:38.092+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'jinja_sql_dag', 'incremental_insert_task', 'manual__2023-08-25T11:02:35.676739+00:00', '--job-id', '68', '--raw', '--subdir', 'DAGS_FOLDER/6_jinja/jinja_dev.py', '--cfg-path', '/tmp/tmpk_a8hqwq']
+[2023-08-25T11:02:38.094+0000] {standard_task_runner.py:85} INFO - Job 68: Subtask incremental_insert_task
+[2023-08-25T11:02:38.130+0000] {task_command.py:415} INFO - Running <TaskInstance: jinja_sql_dag.incremental_insert_task manual__2023-08-25T11:02:35.676739+00:00 [running]> on host 83fdf19a2df8
+[2023-08-25T11:02:38.159+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206: AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+  warnings.warn(_create_deprecation_warning(key, self._deprecation_replacements[key]))
+
+[2023-08-25T11:02:38.180+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='jinja_sql_dag' AIRFLOW_CTX_TASK_ID='incremental_insert_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-25T11:02:35.676739+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-25T11:02:35.676739+00:00'
+[2023-08-25T11:02:38.181+0000] {sql.py:274} INFO - Executing: 
+        INSERT INTO final_destination
+        SELECT * FROM public.sales
+        WHERE load_date between 2023-08-24 and 2023-08-25;
+    
+[2023-08-25T11:02:38.187+0000] {base.py:73} INFO - Using connection ID 'postgresql_connection' for task execution.
+[2023-08-25T11:02:38.195+0000] {base.py:73} INFO - Using connection ID 'postgresql_connection' for task execution.
+[2023-08-25T11:02:38.202+0000] {sql.py:418} INFO - Running statement: 
+        INSERT INTO final_destination
+        SELECT * FROM public.sales
+        WHERE load_date between 2023-08-24 and 2023-08-25;
+    , parameters: None
+[2023-08-25T11:02:38.203+0000] {taskinstance.py:1943} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedFunction: operator does not exist: date >= integer
+LINE 4:         WHERE load_date between 2023-08-24 and 2023-08-25;
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[2023-08-25T11:02:38.211+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=jinja_sql_dag, task_id=incremental_insert_task, execution_date=20230825T110235, start_date=20230825T110238, end_date=20230825T110238
+[2023-08-25T11:02:38.217+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 68 for task incremental_insert_task (operator does not exist: date >= integer
+LINE 4:         WHERE load_date between 2023-08-24 and 2023-08-25;
+                                ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+; 701)
+[2023-08-25T11:02:38.268+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-08-25T11:02:38.284+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

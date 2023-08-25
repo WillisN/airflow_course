@@ -1,0 +1,29 @@
+[2023-08-25T09:58:15.124+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ELT_analytics_video_games.agg_nintendo_year_sales manual__2023-08-25T09:56:12.970563+00:00 [queued]>
+[2023-08-25T09:58:15.130+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ELT_analytics_video_games.agg_nintendo_year_sales manual__2023-08-25T09:56:12.970563+00:00 [queued]>
+[2023-08-25T09:58:15.131+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-08-25T09:58:15.138+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): agg_nintendo_year_sales> on 2023-08-25 09:56:12.970563+00:00
+[2023-08-25T09:58:15.141+0000] {standard_task_runner.py:57} INFO - Started process 116 to run task
+[2023-08-25T09:58:15.145+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ELT_analytics_video_games', 'agg_nintendo_year_sales', 'manual__2023-08-25T09:56:12.970563+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/3_ETL_mysql_postgresql_dag/ELT_dag.py', '--cfg-path', '/tmp/tmpufggv_2y']
+[2023-08-25T09:58:15.146+0000] {standard_task_runner.py:85} INFO - Job 42: Subtask agg_nintendo_year_sales
+[2023-08-25T09:58:15.185+0000] {task_command.py:415} INFO - Running <TaskInstance: ELT_analytics_video_games.agg_nintendo_year_sales manual__2023-08-25T09:56:12.970563+00:00 [running]> on host bcc4c4f0735e
+[2023-08-25T09:58:15.245+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Willis' AIRFLOW_CTX_DAG_ID='ELT_analytics_video_games' AIRFLOW_CTX_TASK_ID='agg_nintendo_year_sales' AIRFLOW_CTX_EXECUTION_DATE='2023-08-25T09:56:12.970563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-25T09:56:12.970563+00:00'
+[2023-08-25T09:58:15.247+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-25T09:58:15.248+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/***/dags/3_ETL_mysql_postgresql_dag/python_tasks/agg_nintendo_year_sales.py']
+[2023-08-25T09:58:15.259+0000] {subprocess.py:86} INFO - Output:
+[2023-08-25T09:58:16.082+0000] {subprocess.py:93} INFO - [[34m2023-08-25T09:58:16.082+0000[0m] {[34mbase.py:[0m73} INFO[0m - Using connection ID 'postgresql_connection' for task execution.[0m
+[2023-08-25T09:58:16.090+0000] {subprocess.py:93} INFO - [[34m2023-08-25T09:58:16.090+0000[0m] {[34msql.py:[0m418} INFO[0m - Running statement:
+[2023-08-25T09:58:16.090+0000] {subprocess.py:93} INFO -         DROP TABLE IF EXISTS agg_nintendo_year_sales;
+[2023-08-25T09:58:16.091+0000] {subprocess.py:93} INFO -         CREATE TABLE agg_nintendo_year_sales AS
+[2023-08-25T09:58:16.092+0000] {subprocess.py:93} INFO -         SELECT name_game
+[2023-08-25T09:58:16.092+0000] {subprocess.py:93} INFO -                         , year_game
+[2023-08-25T09:58:16.093+0000] {subprocess.py:93} INFO -                         , Global_Sales
+[2023-08-25T09:58:16.093+0000] {subprocess.py:93} INFO -                         , sum(Global_Sales) OVER (PARTITION BY year_game) AS year_Global_Sales
+[2023-08-25T09:58:16.094+0000] {subprocess.py:93} INFO -                         FROM sales
+[2023-08-25T09:58:16.094+0000] {subprocess.py:93} INFO -                         WHERE publisher = 'Nintendo'
+[2023-08-25T09:58:16.095+0000] {subprocess.py:93} INFO -                         ORDER BY year_game DESC
+[2023-08-25T09:58:16.095+0000] {subprocess.py:93} INFO -                 , parameters: None[0m
+[2023-08-25T09:58:16.100+0000] {subprocess.py:93} INFO - [[34m2023-08-25T09:58:16.100+0000[0m] {[34msql.py:[0m427} INFO[0m - Rows affected: 703[0m
+[2023-08-25T09:58:16.193+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-08-25T09:58:16.216+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ELT_analytics_video_games, task_id=agg_nintendo_year_sales, execution_date=20230825T095612, start_date=20230825T095815, end_date=20230825T095816
+[2023-08-25T09:58:16.244+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-08-25T09:58:16.263+0000] {taskinstance.py:2784} INFO - 0 downstream tasks scheduled from follow-on schedule check

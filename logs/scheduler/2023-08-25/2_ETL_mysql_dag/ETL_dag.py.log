@@ -1559,3 +1559,10 @@
 [2023-08-25T11:10:38.088+0000] {logging_mixin.py:151} INFO - [2023-08-25T11:10:38.088+0000] {dag.py:2907} INFO - Sync 1 DAGs
 [2023-08-25T11:10:38.101+0000] {logging_mixin.py:151} INFO - [2023-08-25T11:10:38.101+0000] {dag.py:3677} INFO - Setting next_dagrun for ETL_analytics_video_games to 2023-08-25T00:00:00+00:00, run_after=2023-08-26T00:00:00+00:00
 [2023-08-25T11:10:38.111+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/2_ETL_mysql_dag/ETL_dag.py took 0.073 seconds
+[2023-08-25T11:11:08.797+0000] {processor.py:157} INFO - Started process (PID=1589) to work on /opt/airflow/dags/2_ETL_mysql_dag/ETL_dag.py
+[2023-08-25T11:11:08.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/2_ETL_mysql_dag/ETL_dag.py for tasks to queue
+[2023-08-25T11:11:08.800+0000] {logging_mixin.py:151} INFO - [2023-08-25T11:11:08.800+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/2_ETL_mysql_dag/ETL_dag.py
+[2023-08-25T11:11:08.811+0000] {processor.py:839} INFO - DAG(s) dict_keys(['ETL_analytics_video_games']) retrieved from /opt/airflow/dags/2_ETL_mysql_dag/ETL_dag.py
+[2023-08-25T11:11:08.833+0000] {logging_mixin.py:151} INFO - [2023-08-25T11:11:08.833+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T11:11:08.848+0000] {logging_mixin.py:151} INFO - [2023-08-25T11:11:08.847+0000] {dag.py:3677} INFO - Setting next_dagrun for ETL_analytics_video_games to 2023-08-25T00:00:00+00:00, run_after=2023-08-26T00:00:00+00:00
+[2023-08-25T11:11:08.859+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/2_ETL_mysql_dag/ETL_dag.py took 0.066 seconds

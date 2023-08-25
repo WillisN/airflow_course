@@ -1,0 +1,25 @@
+[2023-08-25T11:01:58.487+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: jinja_sql_dag.incremental_insert_task manual__2023-08-25T11:01:57.258947+00:00 [queued]>
+[2023-08-25T11:01:58.493+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: jinja_sql_dag.incremental_insert_task manual__2023-08-25T11:01:57.258947+00:00 [queued]>
+[2023-08-25T11:01:58.493+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2023-08-25T11:01:58.500+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): incremental_insert_task> on 2023-08-25 11:01:57.258947+00:00
+[2023-08-25T11:01:58.503+0000] {standard_task_runner.py:57} INFO - Started process 687 to run task
+[2023-08-25T11:01:58.506+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'jinja_sql_dag', 'incremental_insert_task', 'manual__2023-08-25T11:01:57.258947+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/6_jinja/jinja_dev.py', '--cfg-path', '/tmp/tmpkcu6qp2z']
+[2023-08-25T11:01:58.508+0000] {standard_task_runner.py:85} INFO - Job 65: Subtask incremental_insert_task
+[2023-08-25T11:01:58.544+0000] {task_command.py:415} INFO - Running <TaskInstance: jinja_sql_dag.incremental_insert_task manual__2023-08-25T11:01:57.258947+00:00 [running]> on host 83fdf19a2df8
+[2023-08-25T11:01:58.593+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='jinja_sql_dag' AIRFLOW_CTX_TASK_ID='incremental_insert_task' AIRFLOW_CTX_EXECUTION_DATE='2023-08-25T11:01:57.258947+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-25T11:01:57.258947+00:00'
+[2023-08-25T11:01:58.594+0000] {sql.py:274} INFO - Executing: 
+        INSERT INTO final_destination
+        SELECT * FROM public.sales
+        WHERE load_date between '2024-01-01' and '2024-01-03';
+    
+[2023-08-25T11:01:58.601+0000] {base.py:73} INFO - Using connection ID 'postgresql_connection' for task execution.
+[2023-08-25T11:01:58.609+0000] {base.py:73} INFO - Using connection ID 'postgresql_connection' for task execution.
+[2023-08-25T11:01:58.615+0000] {sql.py:418} INFO - Running statement: 
+        INSERT INTO final_destination
+        SELECT * FROM public.sales
+        WHERE load_date between '2024-01-01' and '2024-01-03';
+    , parameters: None
+[2023-08-25T11:01:58.621+0000] {sql.py:427} INFO - Rows affected: 1643
+[2023-08-25T11:01:58.630+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=jinja_sql_dag, task_id=incremental_insert_task, execution_date=20230825T110157, start_date=20230825T110158, end_date=20230825T110158
+[2023-08-25T11:01:58.679+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-08-25T11:01:58.705+0000] {taskinstance.py:2784} INFO - 1 downstream tasks scheduled from follow-on schedule check

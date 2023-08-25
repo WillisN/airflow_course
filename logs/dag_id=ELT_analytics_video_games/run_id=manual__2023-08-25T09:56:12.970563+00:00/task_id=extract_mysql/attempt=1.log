@@ -1,0 +1,19 @@
+[2023-08-25T09:56:16.027+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ELT_analytics_video_games.extract_mysql manual__2023-08-25T09:56:12.970563+00:00 [queued]>
+[2023-08-25T09:56:16.033+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ELT_analytics_video_games.extract_mysql manual__2023-08-25T09:56:12.970563+00:00 [queued]>
+[2023-08-25T09:56:16.034+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2023-08-25T09:56:16.041+0000] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): extract_mysql> on 2023-08-25 09:56:12.970563+00:00
+[2023-08-25T09:56:16.045+0000] {standard_task_runner.py:57} INFO - Started process 77 to run task
+[2023-08-25T09:56:16.048+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ELT_analytics_video_games', 'extract_mysql', 'manual__2023-08-25T09:56:12.970563+00:00', '--job-id', '41', '--raw', '--subdir', 'DAGS_FOLDER/3_ETL_mysql_postgresql_dag/ELT_dag.py', '--cfg-path', '/tmp/tmp5hdhvvpd']
+[2023-08-25T09:56:16.049+0000] {standard_task_runner.py:85} INFO - Job 41: Subtask extract_mysql
+[2023-08-25T09:56:16.091+0000] {task_command.py:415} INFO - Running <TaskInstance: ELT_analytics_video_games.extract_mysql manual__2023-08-25T09:56:12.970563+00:00 [running]> on host bcc4c4f0735e
+[2023-08-25T09:56:16.142+0000] {taskinstance.py:1660} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Willis' AIRFLOW_CTX_DAG_ID='ELT_analytics_video_games' AIRFLOW_CTX_TASK_ID='extract_mysql' AIRFLOW_CTX_EXECUTION_DATE='2023-08-25T09:56:12.970563+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-08-25T09:56:12.970563+00:00'
+[2023-08-25T09:56:16.144+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-08-25T09:56:16.145+0000] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'python /opt/***/dags/3_ETL_mysql_postgresql_dag/python_tasks/extract_load_mysql_to_postgre.py']
+[2023-08-25T09:56:16.153+0000] {subprocess.py:86} INFO - Output:
+[2023-08-25T09:56:16.952+0000] {subprocess.py:93} INFO - [[34m2023-08-25T09:56:16.951+0000[0m] {[34mbase.py:[0m73} INFO[0m - Using connection ID 'mysql_connection' for task execution.[0m
+[2023-08-25T09:56:16.969+0000] {subprocess.py:93} INFO - [[34m2023-08-25T09:56:16.969+0000[0m] {[34msql.py:[0m418} INFO[0m - Running statement: SELECT * FROM db_videos_games_source.sales, parameters: None[0m
+[2023-08-25T09:56:17.035+0000] {subprocess.py:93} INFO - [[34m2023-08-25T09:56:17.034+0000[0m] {[34msql.py:[0m427} INFO[0m - Rows affected: 16598[0m
+[2023-08-25T09:58:14.474+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-08-25T09:58:14.497+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ELT_analytics_video_games, task_id=extract_mysql, execution_date=20230825T095612, start_date=20230825T095616, end_date=20230825T095814
+[2023-08-25T09:58:14.524+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-08-25T09:58:14.541+0000] {taskinstance.py:2784} INFO - 3 downstream tasks scheduled from follow-on schedule check
