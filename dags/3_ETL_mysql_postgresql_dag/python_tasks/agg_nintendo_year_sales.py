@@ -1,8 +1,4 @@
-from airflow.providers.mysql.hooks.mysql import MySqlHook
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-import logging
-
-
 
 
 def staging_agg_nintendo_year_sales():
