@@ -1,0 +1,497 @@
+[2023-08-25T00:40:43.643+0000] {processor.py:157} INFO - Started process (PID=5083) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T00:40:43.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T00:40:43.646+0000] {logging_mixin.py:151} INFO - [2023-08-25T00:40:43.645+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T00:40:43.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T00:40:43.693+0000] {logging_mixin.py:151} INFO - [2023-08-25T00:40:43.693+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T00:40:43.709+0000] {logging_mixin.py:151} INFO - [2023-08-25T00:40:43.709+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T00:40:43.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.094 seconds
+[2023-08-25T01:34:28.563+0000] {processor.py:157} INFO - Started process (PID=5103) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T01:34:28.565+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T01:34:28.567+0000] {logging_mixin.py:151} INFO - [2023-08-25T01:34:28.567+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T01:34:28.584+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T01:34:28.621+0000] {logging_mixin.py:151} INFO - [2023-08-25T01:34:28.621+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T01:34:28.635+0000] {logging_mixin.py:151} INFO - [2023-08-25T01:34:28.635+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T01:34:28.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.094 seconds
+[2023-08-25T02:17:12.503+0000] {processor.py:157} INFO - Started process (PID=5119) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T02:17:12.508+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T02:17:12.510+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:17:12.509+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T02:17:12.524+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T02:17:12.572+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:17:12.571+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T02:17:12.598+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:17:12.598+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T02:17:12.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.128 seconds
+[2023-08-25T02:50:46.885+0000] {processor.py:157} INFO - Started process (PID=5135) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T02:50:46.889+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T02:50:46.890+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:50:46.890+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T02:50:46.915+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T02:50:46.955+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:50:46.955+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T02:50:46.995+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:50:46.995+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T02:50:47.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.134 seconds
+[2023-08-25T03:15:22.888+0000] {processor.py:157} INFO - Started process (PID=5151) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:15:22.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T03:15:22.891+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:15:22.890+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:15:22.903+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:15:22.929+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:15:22.929+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T03:15:22.946+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:15:22.945+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T03:15:22.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.075 seconds
+[2023-08-25T03:22:30.879+0000] {processor.py:157} INFO - Started process (PID=5167) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:22:30.880+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T03:22:30.880+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:22:30.880+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:22:30.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:22:30.911+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:22:30.911+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T03:22:30.931+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:22:30.931+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T03:22:30.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.073 seconds
+[2023-08-25T03:27:08.050+0000] {processor.py:157} INFO - Started process (PID=5183) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:27:08.051+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T03:27:08.052+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:27:08.051+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:27:08.062+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T03:27:08.084+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:27:08.084+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T03:27:08.104+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:27:08.104+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T03:27:08.121+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.074 seconds
+[2023-08-25T04:02:00.570+0000] {processor.py:157} INFO - Started process (PID=5199) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T04:02:00.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T04:02:00.577+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:02:00.576+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T04:02:00.601+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T04:02:00.639+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:02:00.638+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T04:02:00.659+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:02:00.659+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T04:02:00.671+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.108 seconds
+[2023-08-25T04:59:15.465+0000] {processor.py:157} INFO - Started process (PID=5215) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T04:59:15.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T04:59:15.468+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:59:15.467+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T04:59:15.479+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T04:59:15.500+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:59:15.500+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T04:59:15.513+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:59:15.513+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T04:59:15.523+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.061 seconds
+[2023-08-25T05:17:13.210+0000] {processor.py:157} INFO - Started process (PID=5231) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T05:17:13.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T05:17:13.212+0000] {logging_mixin.py:151} INFO - [2023-08-25T05:17:13.211+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T05:17:13.221+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T05:17:13.242+0000] {logging_mixin.py:151} INFO - [2023-08-25T05:17:13.242+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T05:17:13.256+0000] {logging_mixin.py:151} INFO - [2023-08-25T05:17:13.256+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T05:17:13.266+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T06:21:48.479+0000] {processor.py:157} INFO - Started process (PID=5247) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T06:21:48.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T06:21:48.482+0000] {logging_mixin.py:151} INFO - [2023-08-25T06:21:48.482+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T06:21:48.498+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T06:21:48.530+0000] {logging_mixin.py:151} INFO - [2023-08-25T06:21:48.530+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T06:21:48.549+0000] {logging_mixin.py:151} INFO - [2023-08-25T06:21:48.549+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T06:21:48.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.087 seconds
+[2023-08-25T07:27:12.450+0000] {processor.py:157} INFO - Started process (PID=5263) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T07:27:12.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T07:27:12.453+0000] {logging_mixin.py:151} INFO - [2023-08-25T07:27:12.452+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T07:27:12.467+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T07:27:12.497+0000] {logging_mixin.py:151} INFO - [2023-08-25T07:27:12.497+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T07:27:12.513+0000] {logging_mixin.py:151} INFO - [2023-08-25T07:27:12.513+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T07:27:12.526+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.079 seconds
+[2023-08-25T08:35:30.592+0000] {processor.py:157} INFO - Started process (PID=5279) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T08:35:30.593+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T08:35:30.595+0000] {logging_mixin.py:151} INFO - [2023-08-25T08:35:30.594+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T08:35:30.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T08:35:30.652+0000] {logging_mixin.py:151} INFO - [2023-08-25T08:35:30.651+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T08:35:30.671+0000] {logging_mixin.py:151} INFO - [2023-08-25T08:35:30.671+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T08:35:30.696+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.114 seconds
+[2023-08-25T09:12:14.628+0000] {processor.py:157} INFO - Started process (PID=5295) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:12:14.634+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:12:14.635+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:14.635+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:12:14.656+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:12:14.703+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:14.703+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:12:14.731+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:14.730+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:12:14.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.146 seconds
+[2023-08-25T09:12:45.471+0000] {processor.py:157} INFO - Started process (PID=5311) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:12:45.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:12:45.473+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:45.473+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:12:45.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:12:45.507+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:45.506+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:12:45.520+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:45.520+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:12:45.531+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.063 seconds
+[2023-08-25T09:13:16.234+0000] {processor.py:157} INFO - Started process (PID=5327) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:13:16.235+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:13:16.236+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:16.236+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:13:16.246+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:13:16.267+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:16.266+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:13:16.280+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:16.279+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:13:16.289+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:13:46.980+0000] {processor.py:157} INFO - Started process (PID=5343) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:13:46.981+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:13:46.982+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:46.981+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:13:46.993+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:13:47.015+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:47.015+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:13:47.027+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:47.027+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:13:47.038+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.061 seconds
+[2023-08-25T09:14:17.711+0000] {processor.py:157} INFO - Started process (PID=5359) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:14:17.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:14:17.713+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:17.712+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:14:17.723+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:14:17.745+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:17.745+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:14:17.759+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:17.758+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:14:17.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.061 seconds
+[2023-08-25T09:14:48.543+0000] {processor.py:157} INFO - Started process (PID=5375) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:14:48.544+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:14:48.545+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:48.545+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:14:48.554+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:14:48.575+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:48.575+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:14:48.588+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:48.588+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:14:48.598+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:15:19.351+0000] {processor.py:157} INFO - Started process (PID=5391) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:15:19.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:15:19.353+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:19.352+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:15:19.362+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:15:19.383+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:19.383+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:15:19.396+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:19.396+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:15:19.406+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:15:50.097+0000] {processor.py:157} INFO - Started process (PID=5407) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:15:50.098+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:15:50.099+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:50.098+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:15:50.109+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:15:50.130+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:50.130+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:15:50.142+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:50.142+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:15:50.152+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:16:20.870+0000] {processor.py:157} INFO - Started process (PID=5429) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:16:20.871+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:16:20.872+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:20.872+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:16:20.883+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:16:20.904+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:20.904+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:16:20.917+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:20.917+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:16:20.927+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.061 seconds
+[2023-08-25T09:16:51.647+0000] {processor.py:157} INFO - Started process (PID=5445) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:16:51.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:16:51.649+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:51.649+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:16:51.659+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:16:51.680+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:51.680+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:16:51.693+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:51.693+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:16:51.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:17:22.473+0000] {processor.py:157} INFO - Started process (PID=5461) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:17:22.474+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:17:22.475+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:22.475+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:17:22.484+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:17:22.505+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:22.505+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:17:22.518+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:22.518+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:17:22.529+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.059 seconds
+[2023-08-25T09:17:53.232+0000] {processor.py:157} INFO - Started process (PID=5477) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:17:53.234+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:17:53.234+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:53.234+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:17:53.244+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:17:53.265+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:53.265+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:17:53.279+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:53.279+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:17:53.291+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.062 seconds
+[2023-08-25T09:18:24.020+0000] {processor.py:157} INFO - Started process (PID=5493) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:18:24.022+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:18:24.023+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:24.023+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:18:24.042+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:18:24.065+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:24.064+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:18:24.081+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:24.081+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:18:24.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.077 seconds
+[2023-08-25T09:18:54.878+0000] {processor.py:157} INFO - Started process (PID=5509) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:18:54.879+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:18:54.880+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:54.880+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:18:54.889+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:18:54.910+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:54.910+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:18:54.924+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:54.923+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:18:54.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.059 seconds
+[2023-08-25T09:19:25.605+0000] {processor.py:157} INFO - Started process (PID=5525) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:19:25.606+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:19:25.607+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:25.607+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:19:25.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:19:25.638+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:25.637+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:19:25.650+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:25.650+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:19:25.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:19:56.306+0000] {processor.py:157} INFO - Started process (PID=5541) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:19:56.307+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:19:56.308+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:56.308+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:19:56.318+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:19:56.339+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:56.339+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:19:56.352+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:56.352+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:19:56.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.059 seconds
+[2023-08-25T09:20:27.070+0000] {processor.py:157} INFO - Started process (PID=5557) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:20:27.071+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:20:27.072+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:27.072+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:20:27.083+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:20:27.107+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:27.107+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:20:27.122+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:27.122+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:20:27.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.066 seconds
+[2023-08-25T09:20:57.811+0000] {processor.py:157} INFO - Started process (PID=5573) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:20:57.812+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:20:57.813+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:57.813+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:20:57.823+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:20:57.844+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:57.844+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:20:57.856+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:57.856+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:20:57.866+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:21:28.569+0000] {processor.py:157} INFO - Started process (PID=5589) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:21:28.570+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:21:28.571+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:28.570+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:21:28.581+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:21:28.603+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:28.603+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:21:28.616+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:28.616+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:21:28.627+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.061 seconds
+[2023-08-25T09:21:59.249+0000] {processor.py:157} INFO - Started process (PID=5605) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:21:59.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:21:59.251+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:59.250+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:21:59.261+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:21:59.283+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:59.283+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:21:59.298+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:59.297+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:21:59.310+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.064 seconds
+[2023-08-25T09:22:30.035+0000] {processor.py:157} INFO - Started process (PID=5620) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:22:30.036+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:22:30.037+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:22:30.037+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:22:30.048+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:22:30.069+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:22:30.069+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:22:30.082+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:22:30.082+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:22:30.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.062 seconds
+[2023-08-25T09:23:00.780+0000] {processor.py:157} INFO - Started process (PID=5636) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:23:00.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:23:00.782+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:00.782+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:23:00.792+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:23:00.813+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:00.813+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:23:00.826+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:00.826+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:23:00.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.059 seconds
+[2023-08-25T09:23:31.502+0000] {processor.py:157} INFO - Started process (PID=5652) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:23:31.503+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:23:31.504+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:31.503+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:23:31.513+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:23:31.534+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:31.534+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:23:31.546+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:31.546+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:23:31.556+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.056 seconds
+[2023-08-25T09:24:02.303+0000] {processor.py:157} INFO - Started process (PID=5668) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:24:02.304+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:24:02.305+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:02.305+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:24:02.315+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:24:02.336+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:02.336+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:24:02.349+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:02.349+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:24:02.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.059 seconds
+[2023-08-25T09:24:33.076+0000] {processor.py:157} INFO - Started process (PID=5684) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:24:33.077+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:24:33.078+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:33.078+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:24:33.089+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:24:33.111+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:33.111+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:24:33.124+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:33.124+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:24:33.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.063 seconds
+[2023-08-25T09:25:03.882+0000] {processor.py:157} INFO - Started process (PID=5700) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:25:03.884+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:25:03.885+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:03.885+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:25:03.914+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:25:03.950+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:03.950+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:25:03.969+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:03.968+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:25:03.984+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.106 seconds
+[2023-08-25T09:25:34.692+0000] {processor.py:157} INFO - Started process (PID=5716) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:25:34.693+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:25:34.694+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:34.694+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:25:34.706+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:25:34.728+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:34.728+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:25:34.742+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:34.742+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:25:34.753+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.064 seconds
+[2023-08-25T09:26:05.434+0000] {processor.py:157} INFO - Started process (PID=5732) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:26:05.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:26:05.436+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:05.436+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:26:05.446+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:26:05.467+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:05.467+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:26:05.479+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:05.479+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:26:05.490+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.059 seconds
+[2023-08-25T09:26:36.200+0000] {processor.py:157} INFO - Started process (PID=5748) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:26:36.202+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:26:36.203+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:36.202+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:26:36.213+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:26:36.235+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:36.235+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:26:36.249+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:36.249+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:26:36.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.063 seconds
+[2023-08-25T09:27:07.066+0000] {processor.py:157} INFO - Started process (PID=5764) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:27:07.068+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:27:07.069+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:07.068+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:27:07.080+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:27:07.103+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:07.103+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:27:07.116+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:07.116+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:27:07.127+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.064 seconds
+[2023-08-25T09:27:37.968+0000] {processor.py:157} INFO - Started process (PID=5779) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:27:37.969+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:27:37.970+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:37.970+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:27:37.981+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:27:38.003+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:38.003+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:27:38.016+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:38.016+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:27:38.026+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T09:28:08.735+0000] {processor.py:157} INFO - Started process (PID=5795) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:28:08.737+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:28:08.738+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:08.737+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:28:08.749+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:28:08.773+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:08.773+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:28:08.787+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:08.787+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:28:08.800+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.068 seconds
+[2023-08-25T09:28:39.498+0000] {processor.py:157} INFO - Started process (PID=5811) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:28:39.499+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:28:39.500+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:39.500+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:28:39.511+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:28:39.534+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:39.534+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:28:39.548+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:39.548+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:28:39.558+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.063 seconds
+[2023-08-25T09:29:10.273+0000] {processor.py:157} INFO - Started process (PID=5827) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:29:10.275+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:29:10.276+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:10.275+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:29:10.285+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:29:10.306+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:10.306+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:29:10.318+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:10.318+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:29:10.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.057 seconds
+[2023-08-25T09:29:41.074+0000] {processor.py:157} INFO - Started process (PID=5843) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:29:41.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:29:41.076+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:41.076+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:29:41.086+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:29:41.108+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:41.108+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:29:41.121+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:41.121+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:29:41.131+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T09:30:11.839+0000] {processor.py:157} INFO - Started process (PID=5859) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:30:11.840+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:30:11.841+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:11.841+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:30:11.851+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:30:11.872+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:11.872+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:30:11.884+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:11.884+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:30:11.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:30:42.669+0000] {processor.py:157} INFO - Started process (PID=5875) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:30:42.670+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:30:42.671+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:42.670+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:30:42.680+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:30:42.701+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:42.701+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:30:42.714+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:42.714+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:30:42.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T09:31:13.406+0000] {processor.py:157} INFO - Started process (PID=5891) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:31:13.407+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:31:13.408+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:13.408+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:31:13.418+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:31:13.440+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:13.440+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:31:13.454+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:13.454+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:31:13.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.061 seconds
+[2023-08-25T09:31:44.166+0000] {processor.py:157} INFO - Started process (PID=5907) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:31:44.167+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:31:44.168+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:44.168+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:31:44.178+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:31:44.199+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:44.199+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:31:44.211+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:44.210+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:31:44.221+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.057 seconds
+[2023-08-25T09:32:14.937+0000] {processor.py:157} INFO - Started process (PID=5923) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:32:14.938+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:32:14.939+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:14.939+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:32:14.951+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:32:14.972+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:14.972+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:32:14.985+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:14.985+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:32:14.996+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.062 seconds
+[2023-08-25T09:32:45.700+0000] {processor.py:157} INFO - Started process (PID=5939) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:32:45.702+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:32:45.703+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:45.702+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:32:45.713+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:32:45.734+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:45.734+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:32:45.748+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:45.748+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:32:45.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T09:33:16.476+0000] {processor.py:157} INFO - Started process (PID=5955) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:33:16.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:33:16.479+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:16.478+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:33:16.491+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:33:16.516+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:16.516+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:33:16.530+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:16.530+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:33:16.542+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.069 seconds
+[2023-08-25T09:33:47.228+0000] {processor.py:157} INFO - Started process (PID=5982) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:33:47.230+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:33:47.231+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:47.231+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:33:47.241+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:33:47.262+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:47.262+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:33:47.275+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:47.275+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:33:47.285+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T09:34:18.033+0000] {processor.py:157} INFO - Started process (PID=5998) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:34:18.034+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:34:18.035+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:18.035+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:34:18.045+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:34:18.066+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:18.066+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:34:18.078+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:18.078+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:34:18.089+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.059 seconds
+[2023-08-25T09:34:48.801+0000] {processor.py:157} INFO - Started process (PID=6014) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:34:48.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:34:48.804+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:48.804+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:34:48.815+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:34:48.839+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:48.838+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:34:48.853+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:48.853+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:34:48.865+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.067 seconds
+[2023-08-25T09:35:19.607+0000] {processor.py:157} INFO - Started process (PID=6030) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:35:19.609+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:35:19.609+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:19.609+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:35:19.619+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:35:19.640+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:19.640+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:35:19.652+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:19.652+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:35:19.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T09:35:50.307+0000] {processor.py:157} INFO - Started process (PID=6046) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:35:50.308+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:35:50.309+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:50.308+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:35:50.319+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:35:50.341+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:50.341+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:35:50.356+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:50.356+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:35:50.366+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.062 seconds
+[2023-08-25T09:36:21.078+0000] {processor.py:157} INFO - Started process (PID=6062) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:36:21.079+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:36:21.080+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:21.080+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:36:21.090+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:36:21.111+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:21.111+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:36:21.124+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:21.124+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:36:21.137+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.061 seconds
+[2023-08-25T09:36:51.753+0000] {processor.py:157} INFO - Started process (PID=6078) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:36:51.754+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:36:51.755+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:51.755+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:36:51.765+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:36:51.786+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:51.786+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:36:51.799+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:51.799+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:36:51.808+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.058 seconds
+[2023-08-25T09:37:22.645+0000] {processor.py:157} INFO - Started process (PID=6094) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:37:22.647+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:37:22.648+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:22.648+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:37:22.658+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:37:22.680+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:22.680+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:37:22.693+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:22.693+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:37:22.703+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T09:37:53.430+0000] {processor.py:157} INFO - Started process (PID=6110) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:37:53.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:37:53.434+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:53.434+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:37:53.451+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:37:53.479+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:53.478+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:37:53.493+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:53.493+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:37:53.505+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.078 seconds
+[2023-08-25T09:38:24.195+0000] {processor.py:157} INFO - Started process (PID=6133) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:38:24.196+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:38:24.197+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:24.197+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:38:24.207+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:38:24.229+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:24.229+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:38:24.243+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:24.243+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:38:24.255+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.064 seconds
+[2023-08-25T09:38:54.879+0000] {processor.py:157} INFO - Started process (PID=6148) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:38:54.880+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:38:54.881+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:54.881+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:38:54.891+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:38:54.913+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:54.913+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:38:54.927+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:54.926+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:38:54.937+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds
+[2023-08-25T09:39:25.564+0000] {processor.py:157} INFO - Started process (PID=6164) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:39:25.565+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:39:25.566+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:25.566+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:39:25.577+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:39:25.608+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:25.608+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:39:25.626+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:25.626+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:39:25.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.079 seconds
+[2023-08-25T09:39:56.327+0000] {processor.py:157} INFO - Started process (PID=6180) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:39:56.328+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:39:56.329+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:56.329+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:39:56.340+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:39:56.362+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:56.361+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:39:56.375+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:56.375+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:39:56.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.064 seconds
+[2023-08-25T09:40:27.095+0000] {processor.py:157} INFO - Started process (PID=6196) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:40:27.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:40:27.098+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:27.097+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:40:27.109+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:40:27.132+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:27.132+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:40:27.145+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:27.145+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:40:27.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.065 seconds
+[2023-08-25T09:40:57.973+0000] {processor.py:157} INFO - Started process (PID=6212) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:40:57.974+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:40:57.975+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:57.975+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:40:57.985+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:40:58.017+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:58.017+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:40:58.031+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:58.031+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:40:58.042+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.072 seconds
+[2023-08-25T09:41:28.803+0000] {processor.py:157} INFO - Started process (PID=6228) to work on /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:41:28.804+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/4_advances_features/4_taskgroup.py for tasks to queue
+[2023-08-25T09:41:28.805+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:41:28.805+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:41:28.815+0000] {processor.py:839} INFO - DAG(s) dict_keys(['taskgroup_dag']) retrieved from /opt/airflow/dags/4_advances_features/4_taskgroup.py
+[2023-08-25T09:41:28.836+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:41:28.836+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:41:28.849+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:41:28.849+0000] {dag.py:3677} INFO - Setting next_dagrun for taskgroup_dag to 2023-08-24T00:00:00+00:00, run_after=2023-08-25T00:00:00+00:00
+[2023-08-25T09:41:28.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/4_advances_features/4_taskgroup.py took 0.060 seconds

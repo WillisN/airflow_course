@@ -1,0 +1,497 @@
+[2023-08-25T00:40:43.286+0000] {processor.py:157} INFO - Started process (PID=5080) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T00:40:43.287+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T00:40:43.288+0000] {logging_mixin.py:151} INFO - [2023-08-25T00:40:43.287+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T00:40:43.302+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T00:40:43.351+0000] {logging_mixin.py:151} INFO - [2023-08-25T00:40:43.351+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T00:40:43.396+0000] {logging_mixin.py:151} INFO - [2023-08-25T00:40:43.396+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T00:40:43.396151+00:00, run_after=2023-08-25T00:40:43.396151+00:00
+[2023-08-25T00:40:43.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.143 seconds
+[2023-08-25T01:34:28.254+0000] {processor.py:157} INFO - Started process (PID=5100) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T01:34:28.258+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T01:34:28.260+0000] {logging_mixin.py:151} INFO - [2023-08-25T01:34:28.259+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T01:34:28.278+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T01:34:28.305+0000] {logging_mixin.py:151} INFO - [2023-08-25T01:34:28.305+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T01:34:28.327+0000] {logging_mixin.py:151} INFO - [2023-08-25T01:34:28.326+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T01:34:28.326674+00:00, run_after=2023-08-25T01:34:28.326674+00:00
+[2023-08-25T01:34:28.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.105 seconds
+[2023-08-25T02:17:12.134+0000] {processor.py:157} INFO - Started process (PID=5116) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T02:17:12.146+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T02:17:12.151+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:17:12.150+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T02:17:12.184+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T02:17:12.240+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:17:12.240+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T02:17:12.279+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:17:12.278+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T02:17:12.278729+00:00, run_after=2023-08-25T02:17:12.278729+00:00
+[2023-08-25T02:17:12.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.231 seconds
+[2023-08-25T02:50:46.246+0000] {processor.py:157} INFO - Started process (PID=5132) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T02:50:46.248+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T02:50:46.249+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:50:46.248+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T02:50:46.512+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T02:50:46.608+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:50:46.608+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T02:50:46.645+0000] {logging_mixin.py:151} INFO - [2023-08-25T02:50:46.644+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T02:50:46.644058+00:00, run_after=2023-08-25T02:50:46.644058+00:00
+[2023-08-25T02:50:46.676+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.433 seconds
+[2023-08-25T03:15:22.602+0000] {processor.py:157} INFO - Started process (PID=5148) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:15:22.607+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T03:15:22.609+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:15:22.608+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:15:22.623+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:15:22.648+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:15:22.647+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T03:15:22.663+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:15:22.663+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T03:15:22.662971+00:00, run_after=2023-08-25T03:15:22.662971+00:00
+[2023-08-25T03:15:22.686+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.086 seconds
+[2023-08-25T03:22:30.717+0000] {processor.py:157} INFO - Started process (PID=5164) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:22:30.718+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T03:22:30.719+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:22:30.718+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:22:30.728+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:22:30.746+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:22:30.746+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T03:22:30.758+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:22:30.758+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T03:22:30.758663+00:00, run_after=2023-08-25T03:22:30.758663+00:00
+[2023-08-25T03:22:30.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.055 seconds
+[2023-08-25T03:27:07.867+0000] {processor.py:157} INFO - Started process (PID=5180) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:27:07.868+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T03:27:07.869+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:27:07.869+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:27:07.881+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T03:27:07.904+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:27:07.904+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T03:27:07.918+0000] {logging_mixin.py:151} INFO - [2023-08-25T03:27:07.918+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T03:27:07.917950+00:00, run_after=2023-08-25T03:27:07.917950+00:00
+[2023-08-25T03:27:07.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.066 seconds
+[2023-08-25T04:02:00.323+0000] {processor.py:157} INFO - Started process (PID=5196) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T04:02:00.329+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T04:02:00.332+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:02:00.331+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T04:02:00.359+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T04:02:00.404+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:02:00.404+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T04:02:00.424+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:02:00.424+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T04:02:00.424480+00:00, run_after=2023-08-25T04:02:00.424480+00:00
+[2023-08-25T04:02:00.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.132 seconds
+[2023-08-25T04:59:15.218+0000] {processor.py:157} INFO - Started process (PID=5212) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T04:59:15.219+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T04:59:15.223+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:59:15.223+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T04:59:15.234+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T04:59:15.255+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:59:15.255+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T04:59:15.268+0000] {logging_mixin.py:151} INFO - [2023-08-25T04:59:15.268+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T04:59:15.268295+00:00, run_after=2023-08-25T04:59:15.268295+00:00
+[2023-08-25T04:59:15.279+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T05:17:13.042+0000] {processor.py:157} INFO - Started process (PID=5228) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T05:17:13.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T05:17:13.044+0000] {logging_mixin.py:151} INFO - [2023-08-25T05:17:13.043+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T05:17:13.053+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T05:17:13.073+0000] {logging_mixin.py:151} INFO - [2023-08-25T05:17:13.073+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T05:17:13.087+0000] {logging_mixin.py:151} INFO - [2023-08-25T05:17:13.086+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T05:17:13.086673+00:00, run_after=2023-08-25T05:17:13.086673+00:00
+[2023-08-25T05:17:13.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.058 seconds
+[2023-08-25T06:21:48.081+0000] {processor.py:157} INFO - Started process (PID=5244) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T06:21:48.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T06:21:48.089+0000] {logging_mixin.py:151} INFO - [2023-08-25T06:21:48.087+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T06:21:48.102+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T06:21:48.129+0000] {logging_mixin.py:151} INFO - [2023-08-25T06:21:48.129+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T06:21:48.159+0000] {logging_mixin.py:151} INFO - [2023-08-25T06:21:48.158+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T06:21:48.158671+00:00, run_after=2023-08-25T06:21:48.158671+00:00
+[2023-08-25T06:21:48.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.097 seconds
+[2023-08-25T07:27:12.161+0000] {processor.py:157} INFO - Started process (PID=5260) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T07:27:12.162+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T07:27:12.164+0000] {logging_mixin.py:151} INFO - [2023-08-25T07:27:12.163+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T07:27:12.174+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T07:27:12.217+0000] {logging_mixin.py:151} INFO - [2023-08-25T07:27:12.217+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T07:27:12.247+0000] {logging_mixin.py:151} INFO - [2023-08-25T07:27:12.247+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T07:27:12.247369+00:00, run_after=2023-08-25T07:27:12.247369+00:00
+[2023-08-25T07:27:12.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.107 seconds
+[2023-08-25T08:35:30.287+0000] {processor.py:157} INFO - Started process (PID=5276) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T08:35:30.296+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T08:35:30.297+0000] {logging_mixin.py:151} INFO - [2023-08-25T08:35:30.296+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T08:35:30.309+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T08:35:30.359+0000] {logging_mixin.py:151} INFO - [2023-08-25T08:35:30.359+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T08:35:30.381+0000] {logging_mixin.py:151} INFO - [2023-08-25T08:35:30.379+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T08:35:30.379183+00:00, run_after=2023-08-25T08:35:30.379183+00:00
+[2023-08-25T08:35:30.405+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.123 seconds
+[2023-08-25T09:12:14.321+0000] {processor.py:157} INFO - Started process (PID=5292) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:12:14.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:12:14.328+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:14.328+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:12:14.349+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:12:14.398+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:14.386+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:12:14.433+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:14.433+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:12:14.432698+00:00, run_after=2023-08-25T09:12:14.432698+00:00
+[2023-08-25T09:12:14.445+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.126 seconds
+[2023-08-25T09:12:45.285+0000] {processor.py:157} INFO - Started process (PID=5308) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:12:45.287+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:12:45.288+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:45.288+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:12:45.302+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:12:45.330+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:45.329+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:12:45.344+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:12:45.344+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:12:45.344359+00:00, run_after=2023-08-25T09:12:45.344359+00:00
+[2023-08-25T09:12:45.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.075 seconds
+[2023-08-25T09:13:16.062+0000] {processor.py:157} INFO - Started process (PID=5324) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:13:16.064+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:13:16.066+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:16.065+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:13:16.077+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:13:16.100+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:16.100+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:13:16.113+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:16.112+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:13:16.112742+00:00, run_after=2023-08-25T09:13:16.112742+00:00
+[2023-08-25T09:13:16.123+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.065 seconds
+[2023-08-25T09:13:46.805+0000] {processor.py:157} INFO - Started process (PID=5340) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:13:46.806+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:13:46.808+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:46.807+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:13:46.819+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:13:46.840+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:46.840+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:13:46.853+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:13:46.853+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:13:46.853110+00:00, run_after=2023-08-25T09:13:46.853110+00:00
+[2023-08-25T09:13:46.864+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:14:17.537+0000] {processor.py:157} INFO - Started process (PID=5356) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:14:17.539+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:14:17.540+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:17.540+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:14:17.553+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:14:17.578+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:17.578+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:14:17.593+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:17.593+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:14:17.593062+00:00, run_after=2023-08-25T09:14:17.593062+00:00
+[2023-08-25T09:14:17.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.071 seconds
+[2023-08-25T09:14:48.376+0000] {processor.py:157} INFO - Started process (PID=5372) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:14:48.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:14:48.379+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:48.378+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:14:48.391+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:14:48.414+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:48.414+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:14:48.427+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:14:48.427+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:14:48.427132+00:00, run_after=2023-08-25T09:14:48.427132+00:00
+[2023-08-25T09:14:48.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.066 seconds
+[2023-08-25T09:15:19.183+0000] {processor.py:157} INFO - Started process (PID=5388) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:15:19.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:15:19.186+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:19.185+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:15:19.197+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:15:19.218+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:19.218+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:15:19.231+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:19.230+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:15:19.230627+00:00, run_after=2023-08-25T09:15:19.230627+00:00
+[2023-08-25T09:15:19.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.061 seconds
+[2023-08-25T09:15:49.926+0000] {processor.py:157} INFO - Started process (PID=5404) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:15:49.927+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:15:49.928+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:49.928+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:15:49.937+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:15:49.959+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:49.959+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:15:49.972+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:15:49.972+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:15:49.972199+00:00, run_after=2023-08-25T09:15:49.972199+00:00
+[2023-08-25T09:15:49.983+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.060 seconds
+[2023-08-25T09:16:20.696+0000] {processor.py:157} INFO - Started process (PID=5426) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:16:20.698+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:16:20.699+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:20.699+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:16:20.714+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:16:20.739+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:20.739+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:16:20.754+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:20.754+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:16:20.754298+00:00, run_after=2023-08-25T09:16:20.754298+00:00
+[2023-08-25T09:16:20.764+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.072 seconds
+[2023-08-25T09:16:51.477+0000] {processor.py:157} INFO - Started process (PID=5442) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:16:51.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:16:51.479+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:51.479+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:16:51.490+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:16:51.512+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:51.512+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:16:51.525+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:16:51.525+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:16:51.525355+00:00, run_after=2023-08-25T09:16:51.525355+00:00
+[2023-08-25T09:16:51.536+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:17:22.299+0000] {processor.py:157} INFO - Started process (PID=5458) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:17:22.300+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:17:22.302+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:22.301+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:17:22.313+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:17:22.338+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:22.338+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:17:22.352+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:22.352+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:17:22.352263+00:00, run_after=2023-08-25T09:17:22.352263+00:00
+[2023-08-25T09:17:22.363+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.068 seconds
+[2023-08-25T09:17:53.058+0000] {processor.py:157} INFO - Started process (PID=5474) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:17:53.060+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:17:53.061+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:53.061+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:17:53.073+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:17:53.100+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:53.100+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:17:53.113+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:17:53.113+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:17:53.113375+00:00, run_after=2023-08-25T09:17:53.113375+00:00
+[2023-08-25T09:17:53.124+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.069 seconds
+[2023-08-25T09:18:23.851+0000] {processor.py:157} INFO - Started process (PID=5490) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:18:23.853+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:18:23.854+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:23.853+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:18:23.864+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:18:23.884+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:23.884+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:18:23.897+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:23.897+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:18:23.896819+00:00, run_after=2023-08-25T09:18:23.896819+00:00
+[2023-08-25T09:18:23.906+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.058 seconds
+[2023-08-25T09:18:54.714+0000] {processor.py:157} INFO - Started process (PID=5506) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:18:54.716+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:18:54.717+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:54.716+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:18:54.727+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:18:54.748+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:54.748+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:18:54.759+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:18:54.759+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:18:54.759435+00:00, run_after=2023-08-25T09:18:54.759435+00:00
+[2023-08-25T09:18:54.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.058 seconds
+[2023-08-25T09:19:25.432+0000] {processor.py:157} INFO - Started process (PID=5522) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:19:25.433+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:19:25.434+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:25.434+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:19:25.444+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:19:25.469+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:25.469+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:19:25.483+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:25.483+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:19:25.482713+00:00, run_after=2023-08-25T09:19:25.482713+00:00
+[2023-08-25T09:19:25.495+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.066 seconds
+[2023-08-25T09:19:56.142+0000] {processor.py:157} INFO - Started process (PID=5538) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:19:56.143+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:19:56.145+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:56.144+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:19:56.155+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:19:56.179+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:56.179+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:19:56.192+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:19:56.192+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:19:56.192312+00:00, run_after=2023-08-25T09:19:56.192312+00:00
+[2023-08-25T09:19:56.202+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.064 seconds
+[2023-08-25T09:20:26.885+0000] {processor.py:157} INFO - Started process (PID=5554) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:20:26.887+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:20:26.888+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:26.888+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:20:26.898+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:20:26.920+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:26.919+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:20:26.933+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:26.933+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:20:26.933157+00:00, run_after=2023-08-25T09:20:26.933157+00:00
+[2023-08-25T09:20:26.945+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:20:57.644+0000] {processor.py:157} INFO - Started process (PID=5570) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:20:57.645+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:20:57.646+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:57.646+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:20:57.657+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:20:57.678+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:57.678+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:20:57.690+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:20:57.690+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:20:57.690352+00:00, run_after=2023-08-25T09:20:57.690352+00:00
+[2023-08-25T09:20:57.700+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.059 seconds
+[2023-08-25T09:21:28.409+0000] {processor.py:157} INFO - Started process (PID=5586) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:21:28.411+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:21:28.412+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:28.411+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:21:28.423+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:21:28.443+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:28.443+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:21:28.455+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:28.455+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:21:28.455201+00:00, run_after=2023-08-25T09:21:28.455201+00:00
+[2023-08-25T09:21:28.465+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.060 seconds
+[2023-08-25T09:21:59.088+0000] {processor.py:157} INFO - Started process (PID=5602) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:21:59.089+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:21:59.091+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:59.090+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:21:59.101+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:21:59.122+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:59.122+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:21:59.134+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:21:59.134+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:21:59.134420+00:00, run_after=2023-08-25T09:21:59.134420+00:00
+[2023-08-25T09:21:59.145+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.060 seconds
+[2023-08-25T09:22:29.871+0000] {processor.py:157} INFO - Started process (PID=5617) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:22:29.872+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:22:29.873+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:22:29.873+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:22:29.884+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:22:29.906+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:22:29.906+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:22:29.919+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:22:29.919+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:22:29.919120+00:00, run_after=2023-08-25T09:22:29.919120+00:00
+[2023-08-25T09:22:29.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.062 seconds
+[2023-08-25T09:23:00.616+0000] {processor.py:157} INFO - Started process (PID=5633) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:23:00.617+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:23:00.618+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:00.618+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:23:00.631+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:23:00.653+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:00.652+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:23:00.665+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:00.664+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:23:00.664753+00:00, run_after=2023-08-25T09:23:00.664753+00:00
+[2023-08-25T09:23:00.674+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:23:31.334+0000] {processor.py:157} INFO - Started process (PID=5649) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:23:31.335+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:23:31.336+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:31.336+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:23:31.347+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:23:31.369+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:31.368+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:23:31.381+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:23:31.381+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:23:31.381324+00:00, run_after=2023-08-25T09:23:31.381324+00:00
+[2023-08-25T09:23:31.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.061 seconds
+[2023-08-25T09:24:02.142+0000] {processor.py:157} INFO - Started process (PID=5665) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:24:02.144+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:24:02.145+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:02.144+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:24:02.154+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:24:02.175+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:02.175+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:24:02.186+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:02.186+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:24:02.186620+00:00, run_after=2023-08-25T09:24:02.186620+00:00
+[2023-08-25T09:24:02.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.057 seconds
+[2023-08-25T09:24:32.900+0000] {processor.py:157} INFO - Started process (PID=5681) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:24:32.901+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:24:32.903+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:32.902+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:24:32.915+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:24:32.939+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:32.939+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:24:32.952+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:24:32.951+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:24:32.951709+00:00, run_after=2023-08-25T09:24:32.951709+00:00
+[2023-08-25T09:24:32.962+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.067 seconds
+[2023-08-25T09:25:03.664+0000] {processor.py:157} INFO - Started process (PID=5697) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:25:03.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:25:03.667+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:03.667+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:25:03.678+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:25:03.702+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:03.702+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:25:03.716+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:03.716+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:25:03.715827+00:00, run_after=2023-08-25T09:25:03.715827+00:00
+[2023-08-25T09:25:03.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.068 seconds
+[2023-08-25T09:25:34.516+0000] {processor.py:157} INFO - Started process (PID=5713) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:25:34.517+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:25:34.519+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:34.518+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:25:34.533+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:25:34.556+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:34.556+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:25:34.569+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:25:34.569+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:25:34.569502+00:00, run_after=2023-08-25T09:25:34.569502+00:00
+[2023-08-25T09:25:34.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.068 seconds
+[2023-08-25T09:26:05.255+0000] {processor.py:157} INFO - Started process (PID=5729) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:26:05.256+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:26:05.258+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:05.257+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:26:05.270+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:26:05.293+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:05.293+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:26:05.306+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:05.306+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:26:05.306357+00:00, run_after=2023-08-25T09:26:05.306357+00:00
+[2023-08-25T09:26:05.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.066 seconds
+[2023-08-25T09:26:36.032+0000] {processor.py:157} INFO - Started process (PID=5745) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:26:36.033+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:26:36.035+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:36.034+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:26:36.046+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:26:36.068+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:36.068+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:26:36.082+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:26:36.082+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:26:36.082000+00:00, run_after=2023-08-25T09:26:36.082000+00:00
+[2023-08-25T09:26:36.092+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.064 seconds
+[2023-08-25T09:27:06.870+0000] {processor.py:157} INFO - Started process (PID=5761) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:27:06.872+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:27:06.873+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:06.873+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:27:06.884+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:27:06.906+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:06.906+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:27:06.918+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:06.918+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:27:06.918391+00:00, run_after=2023-08-25T09:27:06.918391+00:00
+[2023-08-25T09:27:06.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.062 seconds
+[2023-08-25T09:27:37.799+0000] {processor.py:157} INFO - Started process (PID=5776) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:27:37.801+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:27:37.802+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:37.801+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:27:37.816+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:27:37.838+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:37.837+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:27:37.849+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:27:37.849+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:27:37.849566+00:00, run_after=2023-08-25T09:27:37.849566+00:00
+[2023-08-25T09:27:37.859+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:28:08.551+0000] {processor.py:157} INFO - Started process (PID=5792) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:28:08.553+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:28:08.554+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:08.553+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:28:08.564+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:28:08.585+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:08.585+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:28:08.599+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:08.599+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:28:08.599325+00:00, run_after=2023-08-25T09:28:08.599325+00:00
+[2023-08-25T09:28:08.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.062 seconds
+[2023-08-25T09:28:39.330+0000] {processor.py:157} INFO - Started process (PID=5808) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:28:39.331+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:28:39.332+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:39.331+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:28:39.342+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:28:39.362+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:39.362+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:28:39.376+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:28:39.375+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:28:39.375768+00:00, run_after=2023-08-25T09:28:39.375768+00:00
+[2023-08-25T09:28:39.386+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.060 seconds
+[2023-08-25T09:29:10.112+0000] {processor.py:157} INFO - Started process (PID=5824) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:29:10.114+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:29:10.115+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:10.115+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:29:10.125+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:29:10.147+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:10.147+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:29:10.159+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:10.159+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:29:10.158978+00:00, run_after=2023-08-25T09:29:10.158978+00:00
+[2023-08-25T09:29:10.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.060 seconds
+[2023-08-25T09:29:40.906+0000] {processor.py:157} INFO - Started process (PID=5840) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:29:40.908+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:29:40.909+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:40.909+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:29:40.921+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:29:40.942+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:40.942+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:29:40.955+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:29:40.955+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:29:40.955135+00:00, run_after=2023-08-25T09:29:40.955135+00:00
+[2023-08-25T09:29:40.965+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.062 seconds
+[2023-08-25T09:30:11.674+0000] {processor.py:157} INFO - Started process (PID=5856) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:30:11.676+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:30:11.677+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:11.676+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:30:11.687+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:30:11.709+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:11.709+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:30:11.721+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:11.721+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:30:11.721130+00:00, run_after=2023-08-25T09:30:11.721130+00:00
+[2023-08-25T09:30:11.731+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.060 seconds
+[2023-08-25T09:30:42.502+0000] {processor.py:157} INFO - Started process (PID=5872) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:30:42.503+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:30:42.504+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:42.504+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:30:42.515+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:30:42.537+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:42.537+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:30:42.549+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:30:42.549+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:30:42.549508+00:00, run_after=2023-08-25T09:30:42.549508+00:00
+[2023-08-25T09:30:42.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.062 seconds
+[2023-08-25T09:31:13.245+0000] {processor.py:157} INFO - Started process (PID=5888) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:31:13.247+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:31:13.248+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:13.247+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:31:13.258+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:31:13.278+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:13.278+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:31:13.291+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:13.290+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:31:13.290718+00:00, run_after=2023-08-25T09:31:13.290718+00:00
+[2023-08-25T09:31:13.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.059 seconds
+[2023-08-25T09:31:44.000+0000] {processor.py:157} INFO - Started process (PID=5904) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:31:44.002+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:31:44.003+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:44.003+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:31:44.015+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:31:44.036+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:44.036+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:31:44.049+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:31:44.049+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:31:44.049175+00:00, run_after=2023-08-25T09:31:44.049175+00:00
+[2023-08-25T09:31:44.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:32:14.744+0000] {processor.py:157} INFO - Started process (PID=5920) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:32:14.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:32:14.747+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:14.746+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:32:14.762+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:32:14.789+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:14.789+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:32:14.804+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:14.804+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:32:14.803907+00:00, run_after=2023-08-25T09:32:14.803907+00:00
+[2023-08-25T09:32:14.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.076 seconds
+[2023-08-25T09:32:45.527+0000] {processor.py:157} INFO - Started process (PID=5936) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:32:45.529+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:32:45.531+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:45.530+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:32:45.542+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:32:45.565+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:45.565+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:32:45.579+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:32:45.579+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:32:45.578983+00:00, run_after=2023-08-25T09:32:45.578983+00:00
+[2023-08-25T09:32:45.590+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.067 seconds
+[2023-08-25T09:33:16.287+0000] {processor.py:157} INFO - Started process (PID=5952) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:33:16.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:33:16.289+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:16.288+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:33:16.301+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:33:16.328+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:16.328+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:33:16.344+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:16.344+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:33:16.343830+00:00, run_after=2023-08-25T09:33:16.343830+00:00
+[2023-08-25T09:33:16.355+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.071 seconds
+[2023-08-25T09:33:47.051+0000] {processor.py:157} INFO - Started process (PID=5979) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:33:47.053+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:33:47.054+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:47.053+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:33:47.062+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:33:47.085+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:47.085+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:33:47.099+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:33:47.098+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:33:47.098664+00:00, run_after=2023-08-25T09:33:47.098664+00:00
+[2023-08-25T09:33:47.109+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.061 seconds
+[2023-08-25T09:34:17.861+0000] {processor.py:157} INFO - Started process (PID=5995) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:34:17.863+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:34:17.864+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:17.864+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:34:17.876+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:34:17.900+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:17.900+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:34:17.914+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:17.914+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:34:17.914145+00:00, run_after=2023-08-25T09:34:17.914145+00:00
+[2023-08-25T09:34:17.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.068 seconds
+[2023-08-25T09:34:48.607+0000] {processor.py:157} INFO - Started process (PID=6011) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:34:48.609+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:34:48.611+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:48.610+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:34:48.623+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:34:48.648+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:48.648+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:34:48.662+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:34:48.662+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:34:48.662106+00:00, run_after=2023-08-25T09:34:48.662106+00:00
+[2023-08-25T09:34:48.673+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.070 seconds
+[2023-08-25T09:35:19.433+0000] {processor.py:157} INFO - Started process (PID=6027) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:35:19.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:35:19.437+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:19.436+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:35:19.449+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:35:19.475+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:19.475+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:35:19.490+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:19.490+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:35:19.490437+00:00, run_after=2023-08-25T09:35:19.490437+00:00
+[2023-08-25T09:35:19.501+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.072 seconds
+[2023-08-25T09:35:50.138+0000] {processor.py:157} INFO - Started process (PID=6043) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:35:50.140+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:35:50.142+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:50.141+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:35:50.154+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:35:50.176+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:50.176+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:35:50.189+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:35:50.188+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:35:50.188789+00:00, run_after=2023-08-25T09:35:50.188789+00:00
+[2023-08-25T09:35:50.198+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:36:20.897+0000] {processor.py:157} INFO - Started process (PID=6059) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:36:20.899+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:36:20.900+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:20.900+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:36:20.911+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:36:20.935+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:20.935+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:36:20.948+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:20.948+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:36:20.948281+00:00, run_after=2023-08-25T09:36:20.948281+00:00
+[2023-08-25T09:36:20.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.066 seconds
+[2023-08-25T09:36:51.592+0000] {processor.py:157} INFO - Started process (PID=6075) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:36:51.593+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:36:51.594+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:51.594+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:36:51.604+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:36:51.626+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:51.626+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:36:51.640+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:36:51.640+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:36:51.640045+00:00, run_after=2023-08-25T09:36:51.640045+00:00
+[2023-08-25T09:36:51.650+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.060 seconds
+[2023-08-25T09:37:22.465+0000] {processor.py:157} INFO - Started process (PID=6091) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:37:22.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:37:22.468+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:22.467+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:37:22.482+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:37:22.509+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:22.508+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:37:22.523+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:22.523+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:37:22.523533+00:00, run_after=2023-08-25T09:37:22.523533+00:00
+[2023-08-25T09:37:22.536+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.075 seconds
+[2023-08-25T09:37:53.230+0000] {processor.py:157} INFO - Started process (PID=6107) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:37:53.231+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:37:53.233+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:53.232+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:37:53.245+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:37:53.266+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:53.266+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:37:53.279+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:37:53.279+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:37:53.279271+00:00, run_after=2023-08-25T09:37:53.279271+00:00
+[2023-08-25T09:37:53.290+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.064 seconds
+[2023-08-25T09:38:24.002+0000] {processor.py:157} INFO - Started process (PID=6123) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:38:24.004+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:38:24.005+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:24.005+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:38:24.017+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:38:24.050+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:24.050+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:38:24.064+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:24.064+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:38:24.063969+00:00, run_after=2023-08-25T09:38:24.063969+00:00
+[2023-08-25T09:38:24.075+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.077 seconds
+[2023-08-25T09:38:54.709+0000] {processor.py:157} INFO - Started process (PID=6145) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:38:54.710+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:38:54.712+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:54.712+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:38:54.726+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:38:54.747+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:54.747+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:38:54.759+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:38:54.759+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:38:54.759613+00:00, run_after=2023-08-25T09:38:54.759613+00:00
+[2023-08-25T09:38:54.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:39:25.387+0000] {processor.py:157} INFO - Started process (PID=6161) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:39:25.388+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:39:25.389+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:25.389+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:39:25.399+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:39:25.422+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:25.422+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:39:25.435+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:25.435+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:39:25.435225+00:00, run_after=2023-08-25T09:39:25.435225+00:00
+[2023-08-25T09:39:25.447+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.063 seconds
+[2023-08-25T09:39:56.153+0000] {processor.py:157} INFO - Started process (PID=6177) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:39:56.154+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:39:56.155+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:56.154+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:39:56.164+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:39:56.187+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:56.187+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:39:56.201+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:39:56.201+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:39:56.201293+00:00, run_after=2023-08-25T09:39:56.201293+00:00
+[2023-08-25T09:39:56.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.062 seconds
+[2023-08-25T09:40:26.904+0000] {processor.py:157} INFO - Started process (PID=6193) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:40:26.906+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:40:26.907+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:26.907+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:40:26.919+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:40:26.946+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:26.945+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:40:26.962+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:26.962+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:40:26.961837+00:00, run_after=2023-08-25T09:40:26.961837+00:00
+[2023-08-25T09:40:26.973+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.072 seconds
+[2023-08-25T09:40:57.796+0000] {processor.py:157} INFO - Started process (PID=6209) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:40:57.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:40:57.800+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:57.799+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:40:57.812+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:40:57.835+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:57.835+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:40:57.850+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:40:57.850+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:40:57.849890+00:00, run_after=2023-08-25T09:40:57.849890+00:00
+[2023-08-25T09:40:57.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.068 seconds
+[2023-08-25T09:41:28.623+0000] {processor.py:157} INFO - Started process (PID=6225) to work on /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:41:28.625+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja_dev.py for tasks to queue
+[2023-08-25T09:41:28.626+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:41:28.626+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:41:28.640+0000] {processor.py:839} INFO - DAG(s) dict_keys(['jinja_sql_dag']) retrieved from /opt/airflow/dags/6_jinja/jinja_dev.py
+[2023-08-25T09:41:28.666+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:41:28.666+0000] {dag.py:2907} INFO - Sync 1 DAGs
+[2023-08-25T09:41:28.681+0000] {logging_mixin.py:151} INFO - [2023-08-25T09:41:28.681+0000] {dag.py:3677} INFO - Setting next_dagrun for jinja_sql_dag to 2023-08-24T09:41:28.681322+00:00, run_after=2023-08-25T09:41:28.681322+00:00
+[2023-08-25T09:41:28.693+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja_dev.py took 0.073 seconds
