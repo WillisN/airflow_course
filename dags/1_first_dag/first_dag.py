@@ -18,7 +18,7 @@ dag = DAG(
     'your_first_dag',             # DAG ID
     default_args=default_args,     # Default arguments for the DAG
     description='Training DAG',
-    tags=['Data Engineering courses',"Beginner"],
+    tags=['Data Engineering courses','Beginner'],
     catchup=False,              # Do not backfill past runs when DAG is created
     schedule='0 0 * * *'  # Schedule interval (run at midnight every day)
 )

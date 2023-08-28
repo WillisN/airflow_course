@@ -1,0 +1,22 @@
+[2023-08-28T10:45:39.292+0000] {processor.py:157} INFO - Started process (PID=22186) to work on /opt/airflow/dags/6_jinja/jinja.py
+[2023-08-28T10:45:39.293+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/6_jinja/jinja.py for tasks to queue
+[2023-08-28T10:45:39.294+0000] {logging_mixin.py:151} INFO - [2023-08-28T10:45:39.294+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/6_jinja/jinja.py
+[2023-08-28T10:45:39.313+0000] {logging_mixin.py:151} INFO - [2023-08-28T10:45:39.311+0000] {dagbag.py:347} ERROR - Failed to import: /opt/airflow/dags/6_jinja/jinja.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 343, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/6_jinja/jinja.py", line 76, in <module>
+    create_table_task >> delete_data_task >> incremental_insert_task
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 103, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 261, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 243, in _set_relatives
+    dag.add_task(task)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 2532, in add_task
+    raise AirflowException("DAG is missing the start_date parameter")
+airflow.exceptions.AirflowException: DAG is missing the start_date parameter
+[2023-08-28T10:45:39.314+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/6_jinja/jinja.py
+[2023-08-28T10:45:39.332+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/6_jinja/jinja.py took 0.044 seconds
